@@ -10,7 +10,7 @@ A collection of shell scripts to automate the configuration of pglogical in Vela
 
 Edit the ``primarydb.conf`` file with the connectivity information related to primary database
 
-```shell
+```
 ### Primary DB Vars ###
 pglogical_password= << Enter Password. make sure to escape special characters >>
 database_hostname= << Enter DB Hostname >>
@@ -22,7 +22,7 @@ node_name="node1"
 ```
 
 Edit the ``relpicadb.conf`` file with the connectivity information related to reporting database
-```shell
+```
 ### Replica DB Vars ###
 pglogical_password= << Enter Password. make sure to escape special characters >>
 database_hostname= << Enter DB Hostname >>
