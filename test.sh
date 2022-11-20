@@ -5,7 +5,6 @@ do
         c) configname=${OPTARG};;
     esac
 done
+. $(dirname "$0")/${configname}db.conf
 
-./create_user.sh -c ${configname}
-./enable_extension.sh -c ${configname}
-./create_node.sh -c ${configname}
+echo $database_name
